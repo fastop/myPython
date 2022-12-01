@@ -1,24 +1,33 @@
-#Ciclos FOR
+#Funciones
+
+#Funcion normal
+def holo():
+    print("Que once con el doce")
+    print("Asi son las basess papulince")
 
 
-print("My Nombre es:")
-for i in range(5):
-    print ("LE MEMEASTER ("+str(i)+")");
-
- 
-# Segunda parte -> STEPS for RANGE
-print("---------------")
-for i in range(12, 16):
-    print(i)
+#Con parametros
+def holox(nombre):
+    print("Hola "+ nombre)
 
 
-# Tercera parte -> STEPS for RANGE
-print("---------------")
-for i in range(0, 10, 2):
-    print(i)
+#Funcion con return!!!
+def holoy(nombre):
+    tmp = "Hola "+ nombre +"\n Bienvenido"
+    return tmp
 
 
-# Cuarta parte -> STEPS for RANGE
-print("---------------")
-for i in range(5, -1, -1):
-    print(i)
+print("--------------------")
+holo()
+holo()
+holo()
+
+print("--------------------")
+holox("Perrin")
+holox("Perron")
+
+
+print("--------------------")
+print(holoy("Perrin"))
+print(holoy("Perron"))
+
