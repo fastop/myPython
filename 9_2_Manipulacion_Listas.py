@@ -26,4 +26,7 @@ print(cat, color, desc)
 
 print("\n ===== Usando ENUMS ==== ") #enumeration nos regresa DOS valores, el KEY y el valor
 
-supplies = ["Plumas", "Engrapadoras", ]
+supplies = ["Plumas", "Engrapadoras", "Lanzallamas", "Carpetas"]
+
+for index, item in enumerate(supplies):
+    print("Index "+str(index)+ " la cosa es: "+item)
