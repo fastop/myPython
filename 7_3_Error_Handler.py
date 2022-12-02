@@ -9,10 +9,7 @@ def spam(numero):
 
 
 
-
-
 print(spam(1))
-
 
 
 
