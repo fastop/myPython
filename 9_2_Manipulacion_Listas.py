@@ -1,4 +1,5 @@
 #LISTAS AVANZADAS
+# ENUMS :: FOR NOT IN AND TRICKS de ASSIGNACION MULTIPLE !!!
 
 print("\n ===== Buscando en Listas ==== \n")
 
@@ -14,7 +15,7 @@ else:
 
     
 
-print("\n ===== Asignaciones Multiples (truco) ==== ")
+print("\n\n ========== Asignaciones Multiples (truco) ========= ")
 
 cat = ["gordo", "gris", "ruidoso"]
 
@@ -24,9 +25,35 @@ print(cat, color, desc)
 
 
 
-print("\n ===== Usando ENUMS ==== ") #enumeration nos regresa DOS valores, el KEY y el valor
+print("\n ==================== Usando ENUMS =================== ") #enumeration nos regresa DOS valores, el KEY y el valor
 
 supplies = ["Plumas", "Engrapadoras", "Lanzallamas", "Carpetas"]
 
 for index, item in enumerate(supplies):
     print("Index "+str(index)+ " la cosa es: "+item)
+
+
+
+
+print("\n ==================== OPERADOR PARA AUMENTAR =================== ") 
+
+spam = 42
+spam = spam +1
+print(spam)
+
+spam += 1
+print(spam)
+
+bacon = ["Demo"]
+bacon *= 3  #Multiplicamos la cantidad de elementos por tres
+print(bacon)
+
+
+print("\n ==================== Buscando el calor en la lista con INDEX() =================== ") 
+
+spam = ["hello", "hi", "howdy", "heyas"]
+
+print(spam.index("hello"))
+print(spam.index("heyas"))
+
+print(spam.index("xxx")) #Esto da ERROR!!!
