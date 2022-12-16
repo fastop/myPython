@@ -36,12 +36,11 @@ for k, v in spam.items():
 print("\n\n ========== IMPRIMIENDO DE TODO!!! ========= ")
 
 
+skey = "name" in spam.keys() #Buscamos por Key
+print(skey)
 
-
-
-
-
-
+skey = "red" in spam.values() #Buscamos por Key
+print(skey) 
 
 
 
